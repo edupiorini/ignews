@@ -241,6 +241,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/next-auth@npm:^3.15.0":
+  version: 3.15.0
+  resolution: "@types/next-auth@npm:3.15.0"
+  dependencies:
+    next-auth: "*"
+  checksum: f37b3574fc619a2d1bef9c1a7c22975b9b73c40adb90d6f764a89153fc945372ed33bfd3afae3fa9a536400dc41fdc2391ad472b5eb0fc470834f94badd2114d
+  languageName: node
+  linkType: hard
+
 "@types/node@npm:>=8.1.0, @types/node@npm:^17.0.31":
   version: 17.0.31
   resolution: "@types/node@npm:17.0.31"
@@ -1571,6 +1580,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "ignews@workspace:."
   dependencies:
+    "@types/next-auth": ^3.15.0
     "@types/node": ^17.0.31
     "@types/react": ^18.0.9
     eslint: 8.15.0
@@ -2144,7 +2154,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"next-auth@npm:^4.3.4":
+"next-auth@npm:*, next-auth@npm:^4.3.4":
   version: 4.3.4
   resolution: "next-auth@npm:4.3.4"
   dependencies:
